@@ -1,0 +1,14 @@
+A basic hellowworld inux device driver.. This will explain major and minor number in the linux device driver.
+
+Please update your Beaglebone board's kernel directory in the Makefile.
+
+Create with linux ubuntuu machine as Host and Target machine as BBB
+
+##for cross compilation 
+Build for Beaglebone: sudo make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+
+//Register module
+then use insmode and dmesg to insert module and kernel log 
+
+//unregister module
+then use rmmode and dmesg to remove module and kernel log
