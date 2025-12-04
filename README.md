@@ -1,4 +1,4 @@
-A basic hellowworld  inux device driver. This kernel module will print some debug messages at the init and exit time.
+A basic hellowworld  Linux device driver. This kernel module will print some debug messages at the init and exit time.
 Create with linux ubuntuu machine as Host and Target machine as BBB 
 
 ##for cross compilation
